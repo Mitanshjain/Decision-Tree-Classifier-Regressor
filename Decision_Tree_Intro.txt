@@ -1,0 +1,30 @@
+A decision tree is supervised machine learning algorithm, that is used for classification and regression problems.
+It works by splitting dataset into smaller parts based on conditions forming a structure that looks like a tree.
+It is called decision tree because it makes decision step by step like a flow chart.
+
+
+structure of Decision tree :-
+The decision tree has three main parts:-
+
+(1). Root node :- It is the starting point of the tree.It represents the whole dataset.
+
+(2). Decision node :- A node where the data is split based on feature conditions.
+
+(3). Leaf node :- It is final output or the prediction.
+
+
+(1). What is gini index?
+--> Gini index measures impurity, means how mixed the classes in the datasets.So all data in node belongs to one class the gini value is 0, 
+so it means perfectly pure.
+
+
+formula :-
+
+        Gini = 1-summation (pi)2
+
+
+(2). Information Gain :- It measures too much information gain after splitting the dataset.
+
+formula :- Entropy(s) =  -summation (pi)log to the base 2 (pi)
+
+
