@@ -22,9 +22,22 @@ formula :-
 
         Gini = 1-summation (pi)2
 
+For example :- Socho ek node me 10 samples hain — 6 "Yes" aur 4 "No".
+p(yes) = 6/10 = 0.6
+p(no) = 4/10 = 0.4
+
+Gini = 1-(0.6)2+(0.4)2 = 1- (0.36 + 0.16) = 1-0.52 = 0.48
 
 (2). Information Gain :- It measures too much information gain after splitting the dataset.
 
 formula :- Entropy(s) =  -summation (pi)log to the base 2 (pi)
 
 
+
+for example :- Total = 14 samples → 9 "Yes", 5 "No"
+
+Step 1: Parent Entropy (split se pehle)
+
+Entropy(S) = −(9/14 log2 9/14 +5/14 log2 5/14)
+
+Entropy = −(0.643×−0.637+0.357×−1.485)=0.410+0.530=0.940.
